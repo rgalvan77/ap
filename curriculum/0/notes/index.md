@@ -15,6 +15,8 @@
 ## What is computer science?
 
 * Computer science is fundamentally problem-solving, and programming alone or (more likely) collaboratively is one way to do that.
+* Programs, also known as software, are a collection of program statements that perform a specific task when run by a computer.
+* The behavior of a program is how a program functions during execution and is often described by how a user interacts with it.
 * Collaboration is an important aspect of problem solving. It can take on many forms, such as communication or consultation. Collaboration helps us see diverse perspectives, which can help us avoid bias in the development of computing innovations.
 * We can think of problem-solving as the process of taking some input (details about our problem) and generate some output (the solution to our problem). The "black box" in the middle is what we'll gradually learn more and more about in this course.<br>
   ![word "input", arrow into box, arrow out of box, word "output"](input_output.png)
@@ -191,7 +193,7 @@
   * events
     * the ability to respond to changes in our program or inputs
   * ...
-* David's first program in Scratch was [Oscartime](https://scratch.mit.edu/projects/76196420/), which we play with a volunteer. The game involves clicking and dragging trash that falls from the top of the screen:<br>
+* David's first program, or computing innovation, in Scratch was [Oscartime](https://scratch.mit.edu/projects/76196420/), which we play with a volunteer. The game involves clicking and dragging trash that falls from the top of the screen:<br>
   ![screenshot of oscartime, with cartoon image of shoe being dropped into a cartoon image of trash can](oscartime.png)
   * We can already start to decompose the program for the game:
     * The animation of the trash can is a sequence of 3 images, displayed one after another.

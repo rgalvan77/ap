@@ -69,7 +69,7 @@
   ```
   * We see an error, when we try to `make` this program, that we didn't include a missing header file.
   * We can also run `help50 make buggy0`, which will tell us, at the end, that we should `#include <stdio.h>`, which contains `printf`.
-  * We do that, and see another error, and realize we're missing a semicolon at the end of our line.
+  * We do that, and see another error, and realize we're missing a semicolon at the end of our line. This is called a syntax error.
 * Let's look at another program:
   ```c
   #include <stdio.h>
@@ -82,7 +82,7 @@
       }
   }
   ```
-  * Hmm, we intended to only see 10 `#`s, but there are 11. If we didn't know what the problem is (since our program is working as we wrote it), we could add another print line to help us:
+  * Hmm, we intended to only see 10 `#`s, but there are 11. This is known as a logic error. If we didn't know what the problem is (since our program is working as we wrote it), we could add another print line to help us:
     ```c
     #include <stdio.h>
 
@@ -127,6 +127,7 @@
 ## Arrays
 
 * In memory, we can store variables one after another, back-to-back. And in C, a list of variables stored, one after another in a contiguous chunk of memory, is called an *array* [^bignote].
+* Arrays are considered data abstractions. They provide a separation between the abstract properties of a data type and the concrete details of its representation.
 * It turns out, we can do interesting things with just an array.[^2]
 * Let's look at `scores0.c`:
   ```c
@@ -701,7 +702,7 @@
 
 ---
 
-[^bignote]:In the exam reference sheet for the AP CSP exam: `[value1, value2, value3…]` is the syntax for an array, `aList ← [value1, value2, value3…]` stores a list in a variable `aList`, `aList ← []` initiates an empty list and assigns it to `aList`, `aList ← bList` stores a copy of `bList` in `aList`, and lists are 1 indexed instead of 0 indexed like in C. To access the first element in `aList`, use `aList[1]`, to assign a value to an element in a list to a variable, `x`, use `x` ← `aList [i]`. Assigning a variable to an element of a list can be done with `aList[i] ← x`.
+[^bignote]:In the exam reference sheet for the AP CSP exam: The exam reference sheet describes a list structure whose index values are 1 through the number of elements in the list, inclusive. For all list operations, if a list index is less than 1 or greater than the length of the list, an error message is produced and the program will terminate. `[value1, value2, value3…]` is the syntax for an array, `aList ← [value1, value2, value3…]` stores a list in a variable `aList`, `aList ← []` initiates an empty list and assigns it to `aList`, `aList ← bList` stores a copy of `bList` in `aList`, and lists are 1 indexed instead of 0 indexed like in C. To access the first element in `aList`, use `aList[1]`, to assign a value to an element in a list to a variable, `x`, use `x` ← `aList [i]`. Assigning a variable to an element of a list can be done with `aList[i] ← x`.
 
 [^2]: In the exam reference sheet for the AP CSP exam, we have access to even more functionality with lists, like inserting an item into a list as with `INSERT(list name, index, value)`, appending an item to a list as with `APPEND(list name, value)`, remove items as with `REMOVE(list name, i)`, and you can find the length with `LENGTH(list name)`.
 

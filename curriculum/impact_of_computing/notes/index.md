@@ -14,7 +14,7 @@ Although it is nearly impossible to consider all the ways your computational art
 
 ## Scaling
 
-Scalability is a program's ability to scale to accommodate larger data sets, or more generally, an increased work load. Scalability itself is not a discrete feature in a program but is a part of the design process, and is often a cooperation of software and hardware. As data sets grow, and thus increase the work load of a program, it becomes increasingly more important to consider program or database's ability to accommodate any increase in data.
+Scalability is a program's ability to scale to accommodate larger data sets, or more generally, an increased work load. Scalability itself is not a discrete feature in a program but is a part of the design process, and is often a cooperation of software and hardware. As data sets grow, and thus increase the work load of a program, it becomes increasingly more important to consider program or database's ability to accommodate any increase in data. Program documentation is another way to address scalability. It helps developers maintaining correct programs when working individually or in collaborative programming environments. 
 
 Large increases in users and data usually prompt businesses and developers to consider more scalable options. Consider if Facebook only used a database that could only store 10,000 rows of user information. That may have seemed like a lot when they started implementing their platform but over time usage grows and the need for more space becomes a necessity. One way that companies have handled their large user databases is with a concept known as sharding. This allows us to store a database in multiple databases using a shared key.
 
@@ -22,7 +22,7 @@ Large increases in users and data usually prompt businesses and developers to co
 
 ## People and Computers
 
-Behind all the technology we use and interact is a person or, more likely, a team of people. The development of these new technologies have changed our lives drastically. Perhaps you remember rotary phones or landlines more generally.
+Behind all the technology we use and interact is a person or, more likely, a team of people. The development of these new technologies have changed our lives drastically. Understanding the purpose of a computing innovation provides developers better sense of how to develop that computing innovation.Perhaps you remember rotary phones or landlines more generally.
 
 ![landline](landline.jpg)
 
