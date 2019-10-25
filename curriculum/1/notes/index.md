@@ -8,12 +8,14 @@
 
 * We learned that, thanks to many layers of abstraction and those who came before us, we can easily write programs that are ultimately just binary, 0s and 1s.
 * Problem solving can be described as taking some inputs (a problem) and using an algorithm to process some outputs (a solution) based on the input and/or existing internal values.
+* A decision problem is a problem with a yes/no answer  (e.g., is there a path from A to B?). An optimization problem is a problem with the goal of finding the "best" solution among many (e.g., what is the shortest path from A to B?).
 * Computers represent inputs and outputs with lots of bits, binary digits, 0s and 1s, that are on or off. And with enough of those bits, we can represent not only larger numbers, but text, images, and video.
 * And there can be different algorithms that can solve the same problem, but with different running times.
 * We can write down algorithms more precisely with pseudocode, and along the way use concepts like functions, loops, and conditions.
   * With the help of volunteers from the audience, we make peanut butter and jelly sandwiches from ingredients, though each of us interpreted the instructions differently!
 * It turns out, we (as humans) naturally make assumptions and abstractions when following instructions or even pseudocode. But as we saw in Scratch, and as we will see in C, we won't be able to do that anymore, and will have to think more carefully about the steps and cases that our programs will need to handle.
   * With Scratch, we were able to leverage the work done by the folks at MIT, who created the blocks, and sprites, to make programs of our own. And we too made custom blocks like the `cough` function, that was a layer of abstraction of our own.
+* Knowledge of existing algorithms can help in constructing new ones
 
 ## C
 
@@ -340,6 +342,7 @@
 | `!` | NOT | `!(x==y)` --> `true` |
   * Notice that we use a `||` to indicate an "or" in our Boolean expression. (A logical "and" would be `&&`.)
   * The operand for a logical operator is either a Boolean expression or a single Boolean value.
+  *  Some conditional statements can be written as equivalent Boolean expressions and  some Boolean expressions can be written as equivalent conditional statements.
 * In Scratch, we were able to create our own block, that we called "cough". We can do the same in C, by creating our own function.
 * If we wanted to print "cough" 3 times, we could use a `for` loop:
   ```c
@@ -487,7 +490,7 @@
     <block of statements>
     }
     ```
-    in which the code in block of statements is executed if the Boolean expression condition evaluates to true; no action is taken if condition evaluates to false. 
+    in which the code in block of statements is executed if the Boolean expression condition evaluates to true; no action is taken if condition evaluates to false.
     and the syntax for an `if-else` block is
     ```
     IF(condition)
@@ -499,6 +502,7 @@
      <second block of statements>
     }
     ```
+    in which the code in first block of statements is executed if the Boolean expression condition evaluates to true; otherwise, the code in second block of statements is executed.
 
 [^4]: The syntax for a `for` loop in the AP CSP Exam reference sheet is:
     ```
@@ -507,6 +511,7 @@
      <block of statements>
     }
     ```
+    in which the block of statements is executed n times.
     The syntax for a `while` loop in the AP CSP Exam reference sheet is:
     ```
     REPEAT UNTIL(condition)
@@ -514,6 +519,13 @@
      <block of statements>
     }
     ```
+    in which the code in block of statements is repeated until the Boolean expression condition evaluates to true.
+
+   In REPEAT UNTIL(condition) iteration, an infinite loop occurs when the ending condition will never evaluate to true.
+
+
+   In REPEAT UNTIL(condition) iteration, if the conditional evaluates to true initially, the loop body is not executed at all, due to the condition being checked before the loop.
+
     The syntax for iterating over a list in the AP CSP Exam reference sheet is:
     ```
     FOR EACH item IN aList
@@ -521,6 +533,7 @@
      <block of statements>
     }
     ```
+    The variable item is assigned the value of each element of aList sequentially, in order, from the first element to the last element. The code in block of statements is executed once for each assignment of item.
 
 [^5]: In the exam reference sheet for the AP CSP exam, assume that `a` is an integer greater than or equal to 0 and `b` is an integer greater than 0:
     * `a + b` indicates addition
