@@ -10,6 +10,40 @@ Among this course’s objectives is to supply students with a comprehensive intr
 
 Whether students elect to take no other computer science courses in their lifetime or consider this class the first step in a longer course of study, it is our sincere hope that they feel more comfortable with—and indeed sometimes skeptical of—the technologies that surround us each day.
 
+## Objectives
+
+### Educational Objectives
+
+Among the overarching goals of this course, independent of its curriculum, are to
+
+- inspire students to explore unfamiliar waters, without fear of failure;
+- create an intensive, shared experience, accessible to all students; and
+- build community among students.
+
+### Learning Objectives
+
+Among the overarching goals for students individually in this course is that they learn something that we haven’t taught them, as is manifest at term’s end by so many students’ final projects that use languages, libraries, tools, and techniques not taught in the course. Along the way will students learn to
+
+- think more methodically;
+- program procedurally;
+- represent and process information;
+- communicate succinctly and precisely;
+- solve problems efficiently;
+- recognize patterns among problems;
+- decompose problems into parts and compose solutions thereto;
+- operate at multiple levels of abstraction;
+- separate design from implementation details;
+- infer from first principles how systems work;
+- assess the correctness, design, and style of code;
+- teach themselves new languages;
+- identify threats to privacy and security;
+- read documentation, drawing conclusions from specifications;
+- test solutions to problems, find faults, and identify corner cases;
+- describe symptoms of problems precisely and ask questions clearly; and
+- identify and quantify tradeoffs among resources, particularly time and space.
+
+Ultimately, the course provides students with a foundation for further studies in computer science and empowers students to apply computer science to problems in other domains.
+
 ## Expectations
 
 Students are expected to submit all problems! If students would like to receive AP credit they will need to take the [AP CSP Exam](https://apcentral.collegeboard.org/courses/ap-computer-science-principles/exam) and complete the [Create and Explore Tasks](https://apcentral.collegeboard.org/pdf/ap-csp-student-task-directions.pdf).
