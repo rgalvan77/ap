@@ -523,7 +523,6 @@
 
    In REPEAT UNTIL(condition) iteration, an infinite loop occurs when the ending condition will never evaluate to true.
 
-
    In REPEAT UNTIL(condition) iteration, if the conditional evaluates to true initially, the loop body is not executed at all, due to the condition being checked before the loop.
 
     The syntax for iterating over a list in the AP CSP Exam reference sheet is:
