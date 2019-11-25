@@ -18,7 +18,7 @@ For example, if we were to represent an image using 8-bit color we would have ac
 
 ![bit depth animation](bit_depth.gif)
 
-This notion of bit depth means that we can't actually represent all the colors we see in the real world digitally, rather we have to approximate them to the nearest value we can represent.
+This notion of bit depth means that we can't actually represent all the colors we see in the real world digitally, rather we have to approximate them to the nearest value we can represent. These are just some of many types of abstraction.
 
 ## Signals
 
