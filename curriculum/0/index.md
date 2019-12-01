@@ -15,3 +15,8 @@
   * [Binary](https://ap.cs50.school/assets/pdfs/binary.pdf)
   * [Pseudocode](https://ap.cs50.school/assets/pdfs/pseudocode.pdf)
   * [Scratch](https://ap.cs50.school/assets/pdfs/scratch.pdf)
+
+* After completion of this chapter, teachers can assign:
+  * personal progress check #xyz
+  * ...
+  * ...

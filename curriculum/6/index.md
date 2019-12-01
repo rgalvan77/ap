@@ -18,3 +18,8 @@
 * [Video](https://video.cs50.net/2018/fall/lectures/6)
 * Reference Sheet
   * [Python](https://ap.cs50.school/assets/pdfs/python.pdf)
+
+* After completion of this chapter, teachers can assign:
+  * personal progress check #xyz
+  * ...
+  * ...
