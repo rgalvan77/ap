@@ -89,23 +89,21 @@ ISBN 0-321-84268-5
 ## Overview
 
 Consistent with the AP Computer Science Principles curriculum framework, the course’s material is organized around seven so-called “big ideas” as well as six computational thinking practices. The seven big ideas are:
-1.	Creativity
-2.	Abstraction
-3.	Data and Information
-4.	Algorithms
-5.	Programming
-6.	The Internet
-7.	Global Impact
+1.	Creative Development
+2.	Data
+3.	Algorithms and Programming
+4.  Computer Systems and Networking
+5.  Impact of Computing
 <br>
 
 And the six computational thinking practices are:
 
-* P1. Connecting Computing
-* P2. Creating Computational Artifacts
-* P3. Abstracting
-* P4. Analyzing Problems and Artifacts
-* P5. Communicating (both orally and in writing)
-* P6. Collaborating
+* P1. Computational Solution Design
+* P2. Algorithms and Program Development
+* P3. Abstraction in Program Development
+* P4. Code Analysis
+* P5. Computing Innovations
+* P6. Responsible Computing
 
 ## Curriculum
 
