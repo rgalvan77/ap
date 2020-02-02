@@ -22,6 +22,6 @@
   * [Python for Web Programming](https://ap.cs50.school/assets/pdfs/python_for_web_programming.pdf)
 
 * After completion of this chapter, teachers can assign:
-  * personal progress check #xyz
+  * topic questions #xyz
   * ...
   * ...

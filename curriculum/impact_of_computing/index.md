@@ -10,6 +10,6 @@
   * [Version Control and Documentation](https://ap.cs50.school/assets/pdfs/version_control_and_documentation.pdf)
 
 * After completion of this chapter, teachers can assign:
-  * personal progress check #xyz
+  * topic questions #xyz
   * ...
   * ...

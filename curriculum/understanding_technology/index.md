@@ -16,6 +16,6 @@
   * [Virtual and Augmented Reality](https://ap.cs50.school/assets/pdfs/virtual_and_augmented_reality.pdf)
 
 * After completion of this chapter, teachers can assign:
-  * personal progress check #xyz
+  * topic questions #xyz
   * ...
   * ...

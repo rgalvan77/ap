@@ -1,6 +1,5 @@
 # Chapter 8
 
-* [About Quiz](https://docs.cs50.net/2018/fall/quiz/about.html)
 * [Notes](notes)
 * Problem
   * [Finance](https://docs.cs50.net/2019/ap/problems/finance/finance.html)
@@ -22,6 +21,9 @@
   * [Python for Web Programming](https://ap.cs50.school/assets/pdfs/python_for_web_programming.pdf)
 
 * After completion of this chapter, teachers can assign:
-  * personal progress check #xyz
+  * topic questions #xyz
   * ...
   * ...
+
+* Review for AP Exam
+  * review practice problems from previous AP CSP Exams on [AP Central](https://myap.collegeboard.org/login)

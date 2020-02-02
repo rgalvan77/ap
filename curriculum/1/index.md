@@ -33,6 +33,6 @@
   * [Variables](https://ap.cs50.school/assets/pdfs/variables.pdf)
 
 * After completion of this chapter, teachers can assign:
-  * personal progress check #xyz
+  * topic questions #xyz
   * ...
   * ...

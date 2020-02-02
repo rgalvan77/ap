@@ -31,6 +31,6 @@
   * [TCP and IP](https://ap.cs50.school/assets/pdfs/tcp_and_ip.pdf)
 
 * After completion of this chapter, teachers can assign:
-  * personal progress check #xyz
+  * topic questions #xyz
   * ...
   * ...

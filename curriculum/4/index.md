@@ -18,6 +18,6 @@
 * [Video](https://video.cs50.net/2018/fall/lectures/4)
 
 * After completion of this chapter, teachers can assign:
-  * personal progress check #xyz
+  * topic questions #xyz
   * ...
   * ...

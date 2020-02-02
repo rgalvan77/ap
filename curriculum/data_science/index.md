@@ -4,6 +4,6 @@
 * [Analyzing Data](analyzing_data/notes)
 
 * After completion of this chapter, teachers can assign:
-  * personal progress check #xyz
+  * topic questions #xyz
   * ...
   * ...
